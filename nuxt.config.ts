@@ -15,7 +15,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["ress/dist/ress.min.css", "swiper/css/swiper.css"],
+  css: ["ress/dist/ress.min.css"],
 
   styleResources: {
     scss: ["~assets/vars/*.scss"],

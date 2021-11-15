@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <h1>{{ hello }}</h1>
-    <Tutorial />
+  <div class="main">
+    <h1 class="main__hello">{{ hello }}</h1>
   </div>
 </template>
 
@@ -18,3 +17,17 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__hello {
+    font-size: 28px;
+  }
+}
+</style>
